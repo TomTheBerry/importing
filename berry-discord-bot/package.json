@@ -1,0 +1,17 @@
+{
+  "name": "berry-discord-bot",
+  "version": "1.0.0",
+  "description": "TheBerryHost support tickets in Discord, kept in sync with BerryPanel.",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED",
+  "author": "Berry Technologies Ltd"
+}

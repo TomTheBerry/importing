@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9 4 48 48">
+  <defs>
+    <linearGradient id="bc-fill" x1="10" y1="12" x2="54" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bae6fd"/>
+      <stop offset="0.45" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="bc-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bc-leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ee7b7"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <path d="M33 16.5c1.4-4.6 5.4-7.2 10.4-6.8-1 4.8-4.8 7.6-9.8 7.7z" fill="url(#bc-leaf)"/>
+  <path d="M32.6 17.6c-1.2-3.4-4.2-5.4-7.8-5.2.9 3.3 3.6 5.4 7.2 5.6z" fill="url(#bc-leaf)" opacity=".85"/>
+  <g fill="url(#bc-fill)">
+    <circle cx="21" cy="36" r="10"/>
+    <circle cx="33" cy="29" r="13"/>
+    <circle cx="45" cy="36" r="10"/>
+    <rect x="11" y="34" width="44" height="12" rx="6"/>
+  </g>
+  <g fill="url(#bc-shine)">
+    <circle cx="33" cy="29" r="13"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="18" cy="33" r="2.4" opacity=".45"/>
+    <circle cx="29" cy="24" r="3" opacity=".55"/>
+    <circle cx="42" cy="33" r="2.4" opacity=".4"/>
+    <circle cx="25" cy="40" r="1.6" opacity=".3"/>
+    <circle cx="37" cy="39" r="1.6" opacity=".25"/>
+  </g>
+</svg>

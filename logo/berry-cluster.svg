@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 6 56 56">
+  <defs>
+    <linearGradient id="cl-fill" x1="6" y1="16" x2="58" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bae6fd"/>
+      <stop offset=".5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="cl-fade" x1="6" y1="0" x2="60" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".6" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".25"/>
+    </linearGradient>
+    <mask id="cl-mask"><rect x="0" y="0" width="64" height="64" fill="url(#cl-fade)"/></mask>
+  </defs>
+  <g mask="url(#cl-mask)">
+    <g fill="url(#cl-fill)">
+      <circle cx="13" cy="42" r="6"/><circle cx="24" cy="43" r="6.5"/><circle cx="36" cy="43" r="6.5"/><circle cx="48" cy="42" r="6"/><circle cx="55" cy="37" r="4.5"/>
+      <circle cx="18" cy="33" r="6.5"/><circle cx="44" cy="31" r="7"/>
+      <circle cx="30" cy="27" r="9.5"/>
+    </g>
+    <g fill="#fff" opacity=".55">
+      <circle cx="11" cy="40" r="1.6"/><circle cx="21.5" cy="41" r="1.7"/><circle cx="33.5" cy="41" r="1.7"/>
+      <circle cx="15.5" cy="31" r="1.7"/><circle cx="26.5" cy="23.5" r="2.4"/><circle cx="41" cy="28.5" r="1.8"/>
+    </g>
+  </g>
+  <path d="M30.5 17.8c1.2-3.9 4.6-6.1 8.8-5.8-.9 4-4 6.4-8.3 6.5z" fill="#34d399"/>
+</svg>
